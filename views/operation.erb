@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html>
+<body>
+<% case @operation %>
+<% when "add" %>
+  <p><%= @num1 + @num2 %></p>
+<% when "subtract" %>
 
+<% when "multiply" %>
 
+<% when "divide" %>
 
+<% end %>
+</body>
 </html>
